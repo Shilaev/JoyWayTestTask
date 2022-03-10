@@ -1085,13 +1085,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Profile: {fileID: 11400000, guid: 9101592af50b95245bd0950b6b0ac617, type: 2}
-  m_StaticLightingSkyUniqueID: 0
-  m_LastComputedHash: 0
-  m_NeedUpdateStaticLightingSky: 0
-  m_SkySettings: {fileID: 0}
-  m_SkySettingsFromProfile: {fileID: 0}
-  m_VolumeSkyList: []
 --- !u!4 &1064720777
 Transform:
   m_ObjectHideFlags: 1
@@ -1326,6 +1319,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0bd81f2b7ab9d6429905da2b07742b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxStableMoveSpeed: 10
+  SttableMovementSharpness: 15
+  OrientationSharpness: 10
+  MaxAirMoveSpeed: 10
+  AirAccelerationSpeed: 5
+  Drag: 0.1
+  RotationObstruction: 0
+  Gravity: {x: 0, y: -30, z: 0}
+  MeshRoot: {fileID: 0}
 --- !u!114 &1292452131
 MonoBehaviour:
   m_ObjectHideFlags: 0
